@@ -3,11 +3,11 @@ import {Wrapper , NavItem} from './NavStyled';
 
 const Nav = () => {
     return ( <Wrapper>
-        <NavItem>Start</NavItem>
-        <NavItem>O mnie</NavItem>
-        <NavItem>Technologie</NavItem>
-        <NavItem>Portfolio</NavItem>
-        <NavItem>Kontakt</NavItem>
+        <NavItem to="/">Start</NavItem>
+        <NavItem to="/">O mnie</NavItem>
+        <NavItem to="/">Technologie</NavItem>
+        <NavItem to="/">Portfolio</NavItem>
+        <NavItem to="/">Kontakt</NavItem>
     </Wrapper> );
 }
  

@@ -22,4 +22,12 @@ align-items:center;
 flex-direction:column;
 color:black;
 border-radius:50%;
+
+`;
+export const H1=styled.h1`
+font-family: 'Source Code Pro', monospace;
+font-weight:normal;
+`;
+export const P=styled.p`
+font-family: 'Indie Flower', cursive;
 `;
