@@ -1,16 +1,24 @@
 import React from 'react';
 import StyleGlobal from './StyleGlobal';
-import Main from './Main/Main';
+import Main from './Blocks/Main/Main';
+import About from'./Blocks/About/About';
+import styled from 'styled-components';
 import {BrowserRouter as Router , Route , Switch } from 'react-router-dom';
 function App() {
+  const Wrapper=styled(Router)`
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+  `;
   return (
-    <Router>
+    <Wrapper>
+      <>
     <StyleGlobal/>
-    <Switch>
-   
-   <Route exact path="/" component={Main}/>
-   </Switch>
-   </Router>
+    <Main/>
+    <About/>
+    </>
+   </Wrapper>
   );
 }
 
