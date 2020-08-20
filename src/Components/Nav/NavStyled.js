@@ -13,4 +13,7 @@ export const NavItem=styled(NavLink)`
 color:black;
 font-weight:bold;
 text-decoration:none;
+:hover{
+    color:purple;
+}
 `
