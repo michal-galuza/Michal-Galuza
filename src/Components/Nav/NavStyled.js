@@ -10,10 +10,14 @@ padding:0 50px;
 
 `;
 export const NavItem=styled(NavLink)`
-color:black;
+color:#eeeeee;
 font-weight:bold;
 text-decoration:none;
+padding:5px;
+border-radius:5px;
 :hover{
-    color:purple;
+    color:#393e46;
+    box-shadow: 0 0px 15px 3px #00adb5;
+    background:#00adb5;
 }
 `

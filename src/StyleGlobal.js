@@ -10,6 +10,8 @@ const StyleGlobal=createGlobalStyle`
 }
 body , html , #root{
     width:100%;
+    background: rgb(255,192,203);
+background: linear-gradient(43deg, rgba(255,192,203,1) 31%, rgba(212,165,190,1) 100%);
 }
 `;
 export default StyleGlobal;

@@ -2,8 +2,9 @@ import React from 'react';
 import StyleGlobal from './StyleGlobal';
 import Main from './Blocks/Main/Main';
 import About from'./Blocks/About/About';
+import Technologies from'./Blocks/Technologies/Technologies';
 import styled from 'styled-components';
-import {BrowserRouter as Router , Route , Switch } from 'react-router-dom';
+import {BrowserRouter as Router  } from 'react-router-dom';
 function App() {
   const Wrapper=styled(Router)`
   display:flex;
@@ -17,6 +18,7 @@ function App() {
     <StyleGlobal/>
     <Main/>
     <About/>
+    <Technologies/>
     </>
    </Wrapper>
   );
