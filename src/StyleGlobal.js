@@ -6,7 +6,6 @@ const StyleGlobal=createGlobalStyle`
     padding:0;
     box-sizing:border-box;
     font-family: 'Ubuntu', sans-serif;
-    font-weigth: normal;
 }
 body , html , #root{
     width:100%;
