@@ -6,11 +6,11 @@ const StyleGlobal=createGlobalStyle`
     padding:0;
     box-sizing:border-box;
     font-family: 'Ubuntu', sans-serif;
+    z-index:1;
 }
 body , html , #root{
     width:100%;
-    background: rgb(255,192,203);
-background: linear-gradient(43deg, rgba(255,192,203,1) 31%, rgba(212,165,190,1) 100%);
+    background:rgb(21, 32, 43);
 }
 `;
 export default StyleGlobal;

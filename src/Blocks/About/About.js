@@ -1,29 +1,37 @@
 import React from 'react';
 import Title from '../../Components/Title/Title';
-import {Wrapper , ImgWrapper , TextWrapper , ContentWrapper, Field , Ul , Li , Img , P , A} from './AboutStyled';
+import {Wrapper , ImgWrapper , TextWrapper , ContentWrapper, Field, Legend , Ul , Li , Img , P , A,} from './AboutStyled';
+import BgText from '../../Components/BgText/BgText';
 const About = ()=>(
     <Wrapper>
+
     <Title text="O mnie"/>
+    <BgText text="O mnie"/>
     <ContentWrapper>
         <ImgWrapper><Img src={require('./galuza.jpg')} />
         <P>Michał Gałuza</P>
 
-        <Field>Miejscowość:
+        <Field><Legend>Miejscowość:</Legend> 
            <P>Warszawa</P> 
         </Field>
 
-        <Field>E-mail:
+        <Field><Legend>E-mail:</Legend> 
        <P>michal.galuza77@gmail.com</P> 
         </Field>
 
-        <Field>Github: 
-        <A  target="_blank" href="https://github.com/michal-galuza">https://github.com/michal-galuza</A> 
+        <Field><Legend>Github:</Legend> 
+        <A  target="_blank" href="https://github.com/michal-galuza">Mój Github</A> 
         </Field>
-        <Field>LinkedIn: 
-        <A  target="_blank" href="https://www.linkedin.com/in/michał-gałuza-3a5b0b1b5">https://www.linkedin.com/in/michał-gałuza-3a5b0b1b5</A> 
+
+        <Field><Legend>LinkedIn:</Legend> 
+        <A  target="_blank" href="https://www.linkedin.com/in/michał-gałuza-3a5b0b1b5">Mój LinkedIn</A> 
         </Field>
+        <Field><Legend>Telefon:</Legend> 
+        <A  href="tel:+48797893423">+48 797 893 423</A> 
+        </Field>
+
         </ImgWrapper>
-        <TextWrapper>Cześć nazywam się Michał Gałuza.<br/>  Mieszkam w Wraszawie. Komputerami 
+        <TextWrapper>Cześć nazywam się Michał Gałuza.<br/>  Mieszkam w Warszawie. Komputerami 
             i wszystkim co z nimi związane pasjonuję się od dziecka. Obecnie studiuję informatykę na Uczelni Europejskiej a wcześniej ukończyłem technikum informatyczne
             z kwalifikacją zawodową technik informatyk.Teraz uczę się języka Java aby w pełni móc tworzyć backend.<br/> <br/> 
             Tworzę aplikacje internetowe głównie w React lecz zdarza się też WordPress oraz czysty html css i js. Potrafię też tworzyć proste skrypty backendowe.
