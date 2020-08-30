@@ -1,13 +1,13 @@
 import React from 'react';
 import Title from '../../Components/Title/Title';
-import {Wrapper , ImgWrapper , TextWrapper , ContentWrapper, Field, Legend , Ul , Li , Img , P , A,} from './AboutStyled';
+import {Wrapper , ImgWrapper , TextWrapper , Field, Legend , Img , P , A,} from './AboutStyled';
 import BgText from '../../Components/BgText/BgText';
 const About = ()=>(
     <Wrapper>
 
     <Title text="O mnie"/>
     <BgText text="O mnie"/>
-    <ContentWrapper>
+
         <ImgWrapper><Img src={require('./galuza.jpg')} />
         <P>Michał Gałuza</P>
 
@@ -38,17 +38,8 @@ const About = ()=>(
             Umiem konfigurować i zarządzać różnymi systemami od Linuxów po Windows Serwery.
             <br/>Oferuję kompleksową obsługę stron od projektu graficznego i napisania po umieszczenie jej  na hostingu i administracji nią 
 
-        </TextWrapper>
-        <Ul>
-             
-             <Li>Tworznie projektów graficznych </Li>
-<Li>Tworzenie aplikacji z projektów graficznych</Li>
-<Li>Podpinanie google serach console tworzenie google firma etc.</Li>
-<Li>Przypisywanie domeny i umieszczanie strony na hostingu </Li>
-<Li>Poprawki kodu </Li>
-<Li>Administracja istniejącą stroną </Li>
-</Ul>          
-    </ContentWrapper>
+        </TextWrapper>      
+  
 
     </Wrapper>
 );

@@ -1,17 +1,20 @@
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom'
 export const Wrapper=styled.nav`
-width:100%;
+width:99.2vw;
 height:50px;
 display:flex;
 justify-content:center;
 align-items:center;
-padding:0 50px;
-position: fixed;
-  top: 0;
-  left:0;
-  z-index:999;
-background:#222831;
+padding:0  40vw 0 0;
+position: sticky;
+  top: -1px;
+  z-index:100;
+  background: rgb(21,32,43);
+grid-area:Nav;
+@media (max-width:2000px){
+   display:none;
+}
 `;
 export const NavItem=styled(NavLink)`
 color:#eeeeee;

@@ -16,6 +16,11 @@ padding-right:30px;
 border-radius: 0 50px 50px 0;
 color:#393e46;
 box-shadow: 0 0px 15px 3px #00adb5;
+@media (max-width:1000px){
+    width:230px;
+    top:40px;
+    height:45px;
+}
 `;
 
 const Title = ({text})=>(
